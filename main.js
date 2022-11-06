@@ -14,7 +14,7 @@ function updateTotal(){
         console.log(cartTotal);
     }
     var tot=document.getElementById("total")
-    tot.innerText=cartTotal;
+    tot.innerText=cartTotal.toFixed(3);
     console.log(cartTotal);
 }
 updateTotal();
