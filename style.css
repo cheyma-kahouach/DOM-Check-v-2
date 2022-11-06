@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif ;
+}
+.navbar{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between ;
+    background: #000078;
+    color: white;
+    padding: 25px 60px ;
+    margin-bottom: 30px;
+}
+.cart{
+    background-color: white;
+    color:#000078    ;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px;
+    position: relative;
+}
+.cartAmount{
+    font-size: 16px; 
+    background-color: red;
+    color: white;
+    top: -8px;
+    right: -4px;
+    border-radius: 3px;
+    position: absolute;
+
+}
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    /* establishing a recurring pattern*/ 
+    gap: 30px;
+    justify-content: center;
+}
+.item{
+    border: 2px solid ;
+    border-radius: 4px;
+}
+.details{
+    display: flex;flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.buttons{
+    border: 0.5px solid ;
+    border-radius: 1px;
+}
+.price-quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#heart{
+    position: relative;
+}
+ul {
+    list-style-type: none;
+}
+.price {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
